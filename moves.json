@@ -1,0 +1,5819 @@
+{
+    "Megahorn": {
+        "type": "BUG",
+        "accuracy": "85",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Attack Order": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Bug Buzz": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "First Impression": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "FailsIfNotUserFirstTurn"
+    },
+    "Pollen Puff": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "HealAllyOrDamageFoe"
+    },
+    "Leech Life": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Lunge": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetAttack1"
+    },
+    "X-Scissor": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Signal Beam": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTarget"
+    },
+    "Skitter Smack": {
+        "type": "BUG",
+        "accuracy": "90",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "U-turn": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "SwitchOutUserDamagingMove"
+    },
+    "Steamroller": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Bug Bite": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "UserConsumeTargetBerry"
+    },
+    "Silver Wind": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserMainStats1"
+    },
+    "Fell Stinger": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserAttack3IfTargetFaints"
+    },
+    "Struggle Bug": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "Fury Cutter": {
+        "type": "BUG",
+        "accuracy": "95",
+        "power": "Code = PowerHigherWithConsecutiveUse",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithConsecutiveUse"
+    },
+    "Pin Missile": {
+        "type": "BUG",
+        "accuracy": "95",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Twineedle": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimesPoisonTarget"
+    },
+    "Infestation": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "20",
+        "Phy/Spe": "Special",
+        "extra": "BindTarget"
+    },
+    "Defend Order": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefSpDef1"
+    },
+    "Heal Order": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "HealUserHalfOfTotalHP"
+    },
+    "Powder": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "TargetNextFireMoveDamagesTarget"
+    },
+    "Quiver Dance": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpAtkSpDefSpd1"
+    },
+    "Rage Powder": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "RedirectAllMovesToUser"
+    },
+    "Spider Web": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "TrapTargetInBattle"
+    },
+    "Sticky Web": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "AddStickyWebToFoeSide"
+    },
+    "String Shot": {
+        "type": "BUG",
+        "accuracy": "95",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpeed2"
+    },
+    "Tail Glow": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "20",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpAtk3"
+    },
+    "Hyperspace Fury": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "HoopaRemoveProtectionsBypassSubstituteLowerUserDef1"
+    },
+    "Foul Play": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "95",
+        "Phy/Spe": "Physical",
+        "extra": "UseTargetAttackInsteadOfUserAttack"
+    },
+    "Fiery Wrath": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "FlinchTarget"
+    },
+    "Darkest Lariat": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "IgnoreTargetDefSpDefEvaStatStages"
+    },
+    "Night Daze": {
+        "type": "DARK",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "85",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Crunch": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Dark Pulse": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "FlinchTarget"
+    },
+    "False Surrender": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Jaw Lock": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "TrapUserAndTargetInBattle"
+    },
+    "Throat Chop": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "DisableTargetSoundMoves"
+    },
+    "Wicked Blow": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "AlwaysCriticalHit"
+    },
+    "Lash Out": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "ion = The user lashes out to vent its frustration. Power is doubled if its stats dropped this turn.",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfUserStatsLoweredThisTurn"
+    },
+    "Night Slash": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Sucker Punch": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "FailsIfTargetActed"
+    },
+    "Knock Off": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveTargetItem"
+    },
+    "Assurance": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetLostHPThisTurn",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetLostHPThisTurn"
+    },
+    "Bite": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Brutal Swing": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Feint Attack": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Thief": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "UserTakesTargetItem"
+    },
+    "Snarl": {
+        "type": "DARK",
+        "accuracy": "95",
+        "power": "55",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "Payback": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetActed",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetActed"
+    },
+    "Pursuit": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "PursueSwitchingFoe"
+    },
+    "Beat Up": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "HitOncePerUserTeamMember"
+    },
+    "Fling": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "ThrowUserItemAtTarget"
+    },
+    "Power Trip": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "ion = The user boasts of its strength. Power increases the more the user's stats are raised.",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithUserPositiveStatStages"
+    },
+    "Punishment": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithTargetPositiveStatStages"
+    },
+    "Dark Void": {
+        "type": "DARK",
+        "accuracy": "50",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "SleepTargetIfUserDarkrai"
+    },
+    "Embargo": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "StartTargetCannotUseItem"
+    },
+    "Fake Tears": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpDef2"
+    },
+    "Flatter": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "RaiseTargetSpAtk1ConfuseTarget"
+    },
+    "Hone Claws": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkAcc1"
+    },
+    "Memento": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "UserFaintsLowerTargetAtkSpAtk2"
+    },
+    "Nasty Plot": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpAtk2"
+    },
+    "Obstruct": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserFromDamagingMovesObstruct"
+    },
+    "Parting Shot": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAtkSpAtk1SwitchOutUser"
+    },
+    "Quash": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "TargetActsLast"
+    },
+    "Snatch": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "StealAndUseBeneficialStatusMove"
+    },
+    "Switcheroo": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetSwapItems"
+    },
+    "Taunt": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "DisableTargetStatusMoves"
+    },
+    "Topsy-Turvy": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "InvertTargetStatStages"
+    },
+    "Torment": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetPositiveStatStages",
+        "Phy/Spe": "Status",
+        "extra": "DisableTargetUsingSameMoveConsecutively"
+    },
+    "Eternabeam": {
+        "type": "DRAGON",
+        "accuracy": "90",
+        "power": "160",
+        "Phy/Spe": "Special",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Dragon Energy": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserHP",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithUserHP"
+    },
+    "Roar of Time": {
+        "type": "DRAGON",
+        "accuracy": "90",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Draco Meteor": {
+        "type": "DRAGON",
+        "accuracy": "90",
+        "power": "130",
+        "Phy/Spe": "Special",
+        "extra": "LowerUserSpAtk2"
+    },
+    "Outrage": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "MultiTurnAttackConfuseUserAtEnd"
+    },
+    "Clanging Scales": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "LowerUserDefense1"
+    },
+    "Core Enforcer": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "NegateTargetAbilityIfTargetActed"
+    },
+    "Dragon Rush": {
+        "type": "DRAGON",
+        "accuracy": "75",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Dynamax Cannon": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Spacial Rend": {
+        "type": "DRAGON",
+        "accuracy": "95",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Dragon Hammer": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Dragon Pulse": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "85",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Dragon Claw": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Breaking Swipe": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetAttack1"
+    },
+    "Dragon Breath": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeTarget"
+    },
+    "Dragon Tail": {
+        "type": "DRAGON",
+        "accuracy": "90",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "SwitchOutTargetDamagingMove"
+    },
+    "Dragon Darts": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimesTargetThenTargetAlly"
+    },
+    "Dual Chop": {
+        "type": "DRAGON",
+        "accuracy": "90",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimes"
+    },
+    "Twister": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "Code = FlinchTargetDoublePowerIfTargetInSky",
+        "Phy/Spe": "Special",
+        "extra": "FlinchTargetDoublePowerIfTargetInSky"
+    },
+    "Scale Shot": {
+        "type": "DRAGON",
+        "accuracy": "90",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimesRaiseUserSpd1LowerUserDef1"
+    },
+    "Dragon Rage": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "FixedDamage40"
+    },
+    "Clangorous Soul": {
+        "type": "DRAGON",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserMainStats1LoseThirdOfTotalHP"
+    },
+    "Dragon Dance": {
+        "type": "DRAGON",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkSpd1"
+    },
+    "Bolt Strike": {
+        "type": "ELECTRIC",
+        "accuracy": "85",
+        "power": "130",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeTarget"
+    },
+    "Volt Tackle": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilThirdOfDamageDealtParalyzeTarget"
+    },
+    "Zap Cannon": {
+        "type": "ELECTRIC",
+        "accuracy": "50",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeTarget"
+    },
+    "Aura Wheel": {
+        "type": "tion = Morpeko attacks and raises its Speed with energy stored in its cheeks. Type changes with the user's form.",
+        "accuracy": "100",
+        "power": "110",
+        "Phy/Spe": "Physical",
+        "extra": "TypeDependsOnUserMorpekoFormRaiseUserSpeed1"
+    },
+    "Thunder": {
+        "type": "ELECTRIC",
+        "accuracy": "70",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeTargetAlwaysHitsInRainHitsTargetInSky"
+    },
+    "Fusion Bolt": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "Code = DoublePowerAfterFusionFlare",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerAfterFusionFlare"
+    },
+    "Plasma Fists": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "NormalMovesBecomeElectric"
+    },
+    "Thunderbolt": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeTarget"
+    },
+    "Wild Charge": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilQuarterOfDamageDealt"
+    },
+    "Bolt Beak": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "ion = Stabs the target with an electrified beak. Power is doubled if the user attacks first.",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetNotActed"
+    },
+    "Discharge": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeTarget"
+    },
+    "Overdrive": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Thunder Cage": {
+        "type": "ELECTRIC",
+        "accuracy": "90",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "BindTarget"
+    },
+    "Zing Zap": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Thunder Punch": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeTarget"
+    },
+    "Rising Voltage": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "ion = The user attacks with electric voltage rising from the ground. Power is doubled on Electric Terrain.",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerInElectricTerrain"
+    },
+    "Volt Switch": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "SwitchOutUserDamagingMove"
+    },
+    "Parabolic Charge": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Spark": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeTarget"
+    },
+    "Thunder Fang": {
+        "type": "ELECTRIC",
+        "accuracy": "95",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeFlinchTarget"
+    },
+    "Shock Wave": {
+        "type": "ELECTRIC",
+        "accuracy": "0",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Electroweb": {
+        "type": "ELECTRIC",
+        "accuracy": "95",
+        "power": "55",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Charge Beam": {
+        "type": "ELECTRIC",
+        "accuracy": "90",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserSpAtk1"
+    },
+    "Thunder Shock": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeTarget"
+    },
+    "Nuzzle": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "20",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeTarget"
+    },
+    "Electro Ball": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserFasterThanTarget",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithUserFasterThanTarget"
+    },
+    "Charge": {
+        "type": "ELECTRIC",
+        "accuracy": "0",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpDef1PowerUpElectricMove"
+    },
+    "Eerie Impulse": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpAtk2"
+    },
+    "Electric Terrain": {
+        "type": "ELECTRIC",
+        "accuracy": "0",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "StartElectricTerrain"
+    },
+    "Electrify": {
+        "type": "ELECTRIC",
+        "accuracy": "0",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "TargetMovesBecomeElectric"
+    },
+    "Ion Deluge": {
+        "type": "ELECTRIC",
+        "accuracy": "0",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "NormalMovesBecomeElectric"
+    },
+    "Magnet Rise": {
+        "type": "ELECTRIC",
+        "accuracy": "0",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "StartUserAirborne"
+    },
+    "Magnetic Flux": {
+        "type": "ELECTRIC",
+        "accuracy": "0",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "RaisePlusMinusUserAndAlliesDefSpDef1"
+    },
+    "Thunder Wave": {
+        "type": "nCode = ParalyzeTargetIfNotTypeImmune",
+        "accuracy": "90",
+        "power": "Code = RaiseUserSpDef1PowerUpElectricMove",
+        "Phy/Spe": "Status",
+        "extra": "ParalyzeTargetIfNotTypeImmune"
+    },
+    "Light of Ruin": {
+        "type": "FAIRY",
+        "accuracy": "90",
+        "power": "140",
+        "Phy/Spe": "Special",
+        "extra": "RecoilHalfOfDamageDealt"
+    },
+    "Fleur Cannon": {
+        "type": "FAIRY",
+        "accuracy": "90",
+        "power": "130",
+        "Phy/Spe": "Special",
+        "extra": "LowerUserSpAtk2"
+    },
+    "Misty Explosion": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "ion = The user attacks everything around and faints upon using this move. Power increases on Misty Terrain.",
+        "Phy/Spe": "Special",
+        "extra": "UserFaintsPowersUpInMistyTerrainExplosive"
+    },
+    "Moonblast": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "95",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "Play Rough": {
+        "type": "FAIRY",
+        "accuracy": "90",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetAttack1"
+    },
+    "Strange Steam": {
+        "type": "FAIRY",
+        "accuracy": "95",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTarget"
+    },
+    "Dazzling Gleam": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Spirit Break": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "Draining Kiss": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByThreeQuartersOfDamageDone"
+    },
+    "Disarming Voice": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Fairy Wind": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Nature's Madness": {
+        "type": "FAIRY",
+        "accuracy": "90",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "FixedDamageHalfTargetHP"
+    },
+    "Aromatic Mist": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseTargetSpDef1"
+    },
+    "Baby-Doll Eyes": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAttack1"
+    },
+    "Charm": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAttack2"
+    },
+    "Crafty Shield": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserSideFromStatusMoves"
+    },
+    "Decorate": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseTargetAtkSpAtk2"
+    },
+    "Fairy Lock": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "TrapAllBattlersInBattleForOneTurn"
+    },
+    "Floral Healing": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "HealTargetDependingOnGrassyTerrain"
+    },
+    "Flower Shield": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseGrassBattlersDef1"
+    },
+    "Geomancy": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "TwoTurnAttackRaiseUserSpAtkSpDefSpd2"
+    },
+    "Misty Terrain": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "StartMistyTerrain"
+    },
+    "Moonlight": {
+        "type": "FAIRY",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "HealUserDependingOnWeather"
+    },
+    "Sweet Kiss": {
+        "type": "FAIRY",
+        "accuracy": "75",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ConfuseTarget"
+    },
+    "Focus Punch": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "150",
+        "Phy/Spe": "Physical",
+        "extra": "FailsIfUserDamagedThisTurn"
+    },
+    "Meteor Assault": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "150",
+        "Phy/Spe": "Physical",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "High Jump Kick": {
+        "type": "FIGHTING",
+        "accuracy": "90",
+        "power": "130",
+        "Phy/Spe": "Physical",
+        "extra": "CrashDamageIfFailsUnusableInGravity"
+    },
+    "Close Combat": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserDefSpDef1"
+    },
+    "Focus Blast": {
+        "type": "FIGHTING",
+        "accuracy": "70",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Superpower": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserAtkDef1"
+    },
+    "Cross Chop": {
+        "type": "FIGHTING",
+        "accuracy": "80",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Dynamic Punch": {
+        "type": "FIGHTING",
+        "accuracy": "50",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "ConfuseTarget"
+    },
+    "Flying Press": {
+        "type": "nCode = EffectivenessIncludesFlyingType",
+        "accuracy": "95",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "EffectivenessIncludesFlyingType"
+    },
+    "Hammer Arm": {
+        "type": "FIGHTING",
+        "accuracy": "90",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserSpeed1"
+    },
+    "Jump Kick": {
+        "type": "FIGHTING",
+        "accuracy": "95",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "CrashDamageIfFailsUnusableInGravity"
+    },
+    "Sacred Sword": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "IgnoreTargetDefSpDefEvaStatStages"
+    },
+    "Thunderous Kick": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Secret Sword": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "85",
+        "Phy/Spe": "Special",
+        "extra": "UseTargetDefenseInsteadOfTargetSpDef"
+    },
+    "Sky Uppercut": {
+        "type": "FIGHTING",
+        "accuracy": "90",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "HitsTargetInSky"
+    },
+    "Aura Sphere": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Body Press": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "ion = The user attacks by slamming its body into the target. Power increases the higher the user's Defense is.",
+        "Phy/Spe": "Physical",
+        "extra": "UseUserDefenseInsteadOfUserAttack"
+    },
+    "Submission": {
+        "type": "FIGHTING",
+        "accuracy": "80",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilQuarterOfDamageDealt"
+    },
+    "Brick Break": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveScreens"
+    },
+    "Drain Punch": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Vital Throw": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Wake-Up Slap": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetAsleepCureTarget",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetAsleepCureTarget"
+    },
+    "Low Sweep": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Circle Throw": {
+        "type": "FIGHTING",
+        "accuracy": "90",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "SwitchOutTargetDamagingMove"
+    },
+    "Force Palm": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeTarget"
+    },
+    "Revenge": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfUserLostHPThisTurn",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfUserLostHPThisTurn"
+    },
+    "Rolling Kick": {
+        "type": "FIGHTING",
+        "accuracy": "85",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Storm Throw": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "AlwaysCriticalHit"
+    },
+    "Karate Chop": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Mach Punch": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Power-Up Punch": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserAttack1"
+    },
+    "Rock Smash": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Vacuum Wave": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Double Kick": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "30",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimes"
+    },
+    "Arm Thrust": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Triple Kick": {
+        "type": "FIGHTING",
+        "accuracy": "90",
+        "power": "Code = HitThreeTimesPowersUpWithEachHit",
+        "Phy/Spe": "Physical",
+        "extra": "HitThreeTimesPowersUpWithEachHit"
+    },
+    "Counter": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "CounterPhysicalDamage"
+    },
+    "Final Gambit": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "UserFaintsFixedDamageUserHP"
+    },
+    "Low Kick": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithTargetWeight"
+    },
+    "Reversal": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "Code = PowerLowerWithUserHP",
+        "Phy/Spe": "Physical",
+        "extra": "PowerLowerWithUserHP"
+    },
+    "Seismic Toss": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "FixedDamageUserLevel"
+    },
+    "Bulk Up": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkDef1"
+    },
+    "Coaching": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseAlliesAtkDef1"
+    },
+    "Detect": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUser"
+    },
+    "Mat Block": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserSideFromDamagingMovesIfUserFirstTurn"
+    },
+    "No Retreat": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserMainStats1TrapUserInBattle"
+    },
+    "Octolock": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "TrapTargetInBattleLowerTargetDefSpDef1EachTurn"
+    },
+    "Quick Guard": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserSideFromPriorityMoves"
+    },
+    "V-create": {
+        "type": "FIRE",
+        "accuracy": "95",
+        "power": "180",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserDefSpDefSpd1"
+    },
+    "Blast Burn": {
+        "type": "FIRE",
+        "accuracy": "90",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Eruption": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserHP",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithUserHP"
+    },
+    "Mind Blown": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "UserLosesHalfOfTotalHPExplosive"
+    },
+    "Shell Trap": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "UsedAfterUserTakesPhysicalDamage"
+    },
+    "Blue Flare": {
+        "type": "FIRE",
+        "accuracy": "85",
+        "power": "130",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Burn Up": {
+        "type": "nCode = UserLosesFireType",
+        "accuracy": "100",
+        "power": "130",
+        "Phy/Spe": "Special",
+        "extra": "UserLosesFireType"
+    },
+    "Overheat": {
+        "type": "FIRE",
+        "accuracy": "90",
+        "power": "130",
+        "Phy/Spe": "Special",
+        "extra": "LowerUserSpAtk2"
+    },
+    "Flare Blitz": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilThirdOfDamageDealtBurnTarget"
+    },
+    "Pyro Ball": {
+        "type": "FIRE",
+        "accuracy": "90",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "BurnTarget"
+    },
+    "Fire Blast": {
+        "type": "FIRE",
+        "accuracy": "85",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Fusion Flare": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "Code = DoublePowerAfterFusionBolt",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerAfterFusionBolt"
+    },
+    "Inferno": {
+        "type": "FIRE",
+        "accuracy": "50",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Magma Storm": {
+        "type": "FIRE",
+        "accuracy": "75",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "BindTarget"
+    },
+    "Sacred Fire": {
+        "type": "FIRE",
+        "accuracy": "95",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "BurnTarget"
+    },
+    "Searing Shot": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Heat Wave": {
+        "type": "FIRE",
+        "accuracy": "90",
+        "power": "95",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Flamethrower": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Blaze Kick": {
+        "type": "FIRE",
+        "accuracy": "90",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "BurnTarget"
+    },
+    "Fiery Dance": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserSpAtk1"
+    },
+    "Fire Lash": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Fire Pledge": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "FirePledge"
+    },
+    "Lava Plume": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Fire Punch": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "BurnTarget"
+    },
+    "Mystical Fire": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "Burning Jealousy": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "BurnTargetIfTargetStatsRaisedThisTurn"
+    },
+    "Flame Burst": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "DamageTargetAlly"
+    },
+    "Fire Fang": {
+        "type": "FIRE",
+        "accuracy": "95",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "BurnFlinchTarget"
+    },
+    "Flame Wheel": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "BurnTarget"
+    },
+    "Incinerate": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "DestroyTargetBerryOrGem"
+    },
+    "Flame Charge": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserSpeed1"
+    },
+    "Ember": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Fire Spin": {
+        "type": "FIRE",
+        "accuracy": "85",
+        "power": "35",
+        "Phy/Spe": "Special",
+        "extra": "BindTarget"
+    },
+    "Heat Crash": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserHeavierThanTarget",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithUserHeavierThanTarget"
+    },
+    "Sunny Day": {
+        "type": "FIRE",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithUserHeavierThanTarget",
+        "Phy/Spe": "Status",
+        "extra": "StartSunWeather"
+    },
+    "Will-O-Wisp": {
+        "type": "FIRE",
+        "accuracy": "85",
+        "power": "Code = PowerHigherWithUserHeavierThanTarget",
+        "Phy/Spe": "Status",
+        "extra": "BurnTarget"
+    },
+    "Sky Attack": {
+        "type": "FLYING",
+        "accuracy": "90",
+        "power": "140",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackFlinchTarget"
+    },
+    "Brave Bird": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilThirdOfDamageDealt"
+    },
+    "Dragon Ascent": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserDefSpDef1"
+    },
+    "Hurricane": {
+        "type": "FLYING",
+        "accuracy": "70",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTargetAlwaysHitsInRainHitsTargetInSky"
+    },
+    "Aeroblast": {
+        "type": "FLYING",
+        "accuracy": "95",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Beak Blast": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "BurnAttackerBeforeUserActs"
+    },
+    "Fly": {
+        "type": "FLYING",
+        "accuracy": "95",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackInvulnerableInSky"
+    },
+    "Bounce": {
+        "type": "FLYING",
+        "accuracy": "85",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackInvulnerableInSkyParalyzeTarget"
+    },
+    "Drill Peck": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Oblivion Wing": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByThreeQuartersOfDamageDone"
+    },
+    "Air Slash": {
+        "type": "FLYING",
+        "accuracy": "95",
+        "power": "75",
+        "Phy/Spe": "Special",
+        "extra": "FlinchTarget"
+    },
+    "Chatter": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTarget"
+    },
+    "Aerial Ace": {
+        "type": "FLYING",
+        "accuracy": "0",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Air Cutter": {
+        "type": "FLYING",
+        "accuracy": "95",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Pluck": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "UserConsumeTargetBerry"
+    },
+    "Sky Drop": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackInvulnerableInSkyTargetCannotAct"
+    },
+    "Wing Attack": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Acrobatics": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfUserHasNoItem",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfUserHasNoItem"
+    },
+    "Dual Wingbeat": {
+        "type": "FLYING",
+        "accuracy": "90",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimes"
+    },
+    "Gust": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetInSky",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerIfTargetInSky"
+    },
+    "Peck": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "35",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Defog": {
+        "type": "FLYING",
+        "accuracy": "0",
+        "power": "35",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetEvasion1RemoveSideEffects"
+    },
+    "Feather Dance": {
+        "type": "FLYING",
+        "accuracy": "100",
+        "power": "35",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAttack2"
+    },
+    "Mirror Move": {
+        "type": "FLYING",
+        "accuracy": "0",
+        "power": "35",
+        "Phy/Spe": "Status",
+        "extra": "UseLastMoveUsedByTarget"
+    },
+    "Roost": {
+        "type": "nCode = HealUserHalfOfTotalHPLoseFlyingTypeThisTurn",
+        "accuracy": "0",
+        "power": "35",
+        "Phy/Spe": "Status",
+        "extra": "HealUserHalfOfTotalHPLoseFlyingTypeThisTurn"
+    },
+    "Tailwind": {
+        "type": "FLYING",
+        "accuracy": "0",
+        "power": "35",
+        "Phy/Spe": "Status",
+        "extra": "StartUserSideDoubleSpeed"
+    },
+    "Astral Barrage": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Shadow Force": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackInvulnerableRemoveProtections"
+    },
+    "Poltergeist": {
+        "type": "GHOST",
+        "accuracy": "90",
+        "power": "110",
+        "Phy/Spe": "Physical",
+        "extra": "FailsIfTargetHasNoItem"
+    },
+    "Moongeist Beam": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "IgnoreTargetAbility"
+    },
+    "Phantom Force": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackInvulnerableRemoveProtections"
+    },
+    "Spectral Thief": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "UserStealTargetPositiveStatStages"
+    },
+    "Shadow Bone": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Shadow Ball": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Spirit Shackle": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "TrapTargetInBattle"
+    },
+    "Shadow Claw": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Hex": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetStatusProblem",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerIfTargetStatusProblem"
+    },
+    "Ominous Wind": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserMainStats1"
+    },
+    "Shadow Punch": {
+        "type": "GHOST",
+        "accuracy": "0",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Shadow Sneak": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Astonish": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "30",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Lick": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "30",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeTarget"
+    },
+    "Night Shade": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "FixedDamageUserLevel"
+    },
+    "Confuse Ray": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ConfuseTarget"
+    },
+    "Curse": {
+        "type": "GHOST",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "CurseTargetOrLowerUserSpd1RaiseUserAtkDef1"
+    },
+    "Destiny Bond": {
+        "type": "GHOST",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "AttackerFaintsIfUserFaints"
+    },
+    "Grudge": {
+        "type": "GHOST",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "SetAttackerMovePPTo0IfUserFaints"
+    },
+    "Nightmare": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "StartDamageTargetEachTurnIfTargetAsleep"
+    },
+    "Spite": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "LowerPPOfTargetLastMoveBy4"
+    },
+    "Trick-or-Treat": {
+        "type": "nCode = AddGhostTypeToTarget",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "AddGhostTypeToTarget"
+    },
+    "Frenzy Plant": {
+        "type": "GRASS",
+        "accuracy": "90",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Leaf Storm": {
+        "type": "GRASS",
+        "accuracy": "90",
+        "power": "130",
+        "Phy/Spe": "Special",
+        "extra": "LowerUserSpAtk2"
+    },
+    "Solar Blade": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "125",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackOneTurnInSun"
+    },
+    "Petal Dance": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "MultiTurnAttackConfuseUserAtEnd"
+    },
+    "Power Whip": {
+        "type": "GRASS",
+        "accuracy": "85",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Seed Flare": {
+        "type": "GRASS",
+        "accuracy": "85",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef2"
+    },
+    "Solar Beam": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "TwoTurnAttackOneTurnInSun"
+    },
+    "Wood Hammer": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilThirdOfDamageDealt"
+    },
+    "Energy Ball": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Leaf Blade": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Petal Blizzard": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Apple Acid": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Drum Beating": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Grass Pledge": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "GrassPledge"
+    },
+    "Grav Apple": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "Code = LowerTargetDefense1PowersUpInGravity",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1PowersUpInGravity"
+    },
+    "Seed Bomb": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Giga Drain": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Horn Leech": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Grassy Glide": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "HigherPriorityInGrassyTerrain"
+    },
+    "Trop Kick": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetAttack1"
+    },
+    "Leaf Tornado": {
+        "type": "GRASS",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Magical Leaf": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Needle Arm": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Razor Leaf": {
+        "type": "GRASS",
+        "accuracy": "95",
+        "power": "55",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Vine Whip": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "45",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Branch Poke": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Leafage": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Mega Drain": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Snap Trap": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "35",
+        "Phy/Spe": "Physical",
+        "extra": "BindTarget"
+    },
+    "Bullet Seed": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Absorb": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "20",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Grass Knot": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithTargetWeight"
+    },
+    "Aromatherapy": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "CureUserPartyStatus"
+    },
+    "Cotton Guard": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense3"
+    },
+    "Cotton Spore": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpeed2"
+    },
+    "Forest's Curse": {
+        "type": "nCode = AddGrassTypeToTarget",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "AddGrassTypeToTarget"
+    },
+    "Grass Whistle": {
+        "type": "GRASS",
+        "accuracy": "55",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "SleepTarget"
+    },
+    "Grassy Terrain": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "StartGrassyTerrain"
+    },
+    "Ingrain": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "StartHealUserEachTurnTrapUserInBattle"
+    },
+    "Jungle Healing": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "HealUserAndAlliesQuarterOfTotalHPCureStatus"
+    },
+    "Leech Seed": {
+        "type": "GRASS",
+        "accuracy": "90",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "StartLeechSeedTarget"
+    },
+    "Sleep Powder": {
+        "type": "GRASS",
+        "accuracy": "75",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "SleepTarget"
+    },
+    "Spiky Shield": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserFromTargetingMovesSpikyShield"
+    },
+    "Spore": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "SleepTarget"
+    },
+    "Strength Sap": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "HealUserByTargetAttackLowerTargetAttack1"
+    },
+    "Stun Spore": {
+        "type": "GRASS",
+        "accuracy": "75",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "ParalyzeTarget"
+    },
+    "Synthesis": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "HealUserDependingOnWeather"
+    },
+    "Worry Seed": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetWeight",
+        "Phy/Spe": "Status",
+        "extra": "SetTargetAbilityToInsomnia"
+    },
+    "Precipice Blades": {
+        "type": "GROUND",
+        "accuracy": "85",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Earthquake": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetUnderground",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetUnderground"
+    },
+    "High Horsepower": {
+        "type": "GROUND",
+        "accuracy": "95",
+        "power": "95",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Earth Power": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Land's Wrath": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Thousand Arrows": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "HitsTargetInSkyGroundsTarget"
+    },
+    "Thousand Waves": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "TrapTargetInBattleMainEffect"
+    },
+    "Dig": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackInvulnerableUnderground"
+    },
+    "Drill Run": {
+        "type": "GROUND",
+        "accuracy": "95",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Stomping Tantrum": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "ion = The user attacks driven by frustration. Power increases if the user's previous move failed.",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfUserLastMoveFailed"
+    },
+    "Scorching Sands": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Bone Club": {
+        "type": "GROUND",
+        "accuracy": "85",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Mud Bomb": {
+        "type": "GROUND",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Bulldoze": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpeed1WeakerInGrassyTerrain"
+    },
+    "Mud Shot": {
+        "type": "GROUND",
+        "accuracy": "95",
+        "power": "55",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Bonemerang": {
+        "type": "GROUND",
+        "accuracy": "90",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimes"
+    },
+    "Sand Tomb": {
+        "type": "GROUND",
+        "accuracy": "85",
+        "power": "35",
+        "Phy/Spe": "Physical",
+        "extra": "BindTarget"
+    },
+    "Bone Rush": {
+        "type": "GROUND",
+        "accuracy": "90",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Mud-Slap": {
+        "type": "GROUND",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "20",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Fissure": {
+        "type": "GROUND",
+        "accuracy": "30",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "OHKOHitsUndergroundTarget"
+    },
+    "Magnitude": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "Code = RandomPowerDoublePowerIfTargetUnderground",
+        "Phy/Spe": "Physical",
+        "extra": "RandomPowerDoublePowerIfTargetUnderground"
+    },
+    "Mud Sport": {
+        "type": "GROUND",
+        "accuracy": "0",
+        "power": "Code = RandomPowerDoublePowerIfTargetUnderground",
+        "Phy/Spe": "Status",
+        "extra": "StartWeakenElectricMoves"
+    },
+    "Rototiller": {
+        "type": "GROUND",
+        "accuracy": "0",
+        "power": "Code = RandomPowerDoublePowerIfTargetUnderground",
+        "Phy/Spe": "Status",
+        "extra": "RaiseGroundedGrassBattlersAtkSpAtk1"
+    },
+    "Sand Attack": {
+        "type": "GROUND",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "Code = RandomPowerDoublePowerIfTargetUnderground",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Shore Up": {
+        "type": "GROUND",
+        "accuracy": "0",
+        "power": "Code = RandomPowerDoublePowerIfTargetUnderground",
+        "Phy/Spe": "Status",
+        "extra": "HealUserDependingOnSandstorm"
+    },
+    "Spikes": {
+        "type": "GROUND",
+        "accuracy": "0",
+        "power": "Code = RandomPowerDoublePowerIfTargetUnderground",
+        "Phy/Spe": "Status",
+        "extra": "AddSpikesToFoeSide"
+    },
+    "Freeze Shock": {
+        "type": "ICE",
+        "accuracy": "90",
+        "power": "140",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackParalyzeTarget"
+    },
+    "Ice Burn": {
+        "type": "ICE",
+        "accuracy": "90",
+        "power": "140",
+        "Phy/Spe": "Special",
+        "extra": "TwoTurnAttackBurnTarget"
+    },
+    "Glacial Lance": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "130",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Blizzard": {
+        "type": "ICE",
+        "accuracy": "70",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "FreezeTargetAlwaysHitsInHail"
+    },
+    "Ice Hammer": {
+        "type": "ICE",
+        "accuracy": "90",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserSpeed1"
+    },
+    "Ice Beam": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "FreezeTarget"
+    },
+    "Icicle Crash": {
+        "type": "ICE",
+        "accuracy": "90",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Ice Punch": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "FreezeTarget"
+    },
+    "Freeze-Dry": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "FreezeTargetSuperEffectiveAgainstWater"
+    },
+    "Aurora Beam": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAttack1"
+    },
+    "Glaciate": {
+        "type": "ICE",
+        "accuracy": "95",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Ice Fang": {
+        "type": "ICE",
+        "accuracy": "95",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "FreezeFlinchTarget"
+    },
+    "Avalanche": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfUserLostHPThisTurn",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfUserLostHPThisTurn"
+    },
+    "Frost Breath": {
+        "type": "ICE",
+        "accuracy": "90",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "AlwaysCriticalHit"
+    },
+    "Icy Wind": {
+        "type": "ICE",
+        "accuracy": "95",
+        "power": "55",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Ice Shard": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Powder Snow": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "FreezeTarget"
+    },
+    "Ice Ball": {
+        "type": "ICE",
+        "accuracy": "90",
+        "power": "Code = MultiTurnAttackPowersUpEachTurn",
+        "Phy/Spe": "Physical",
+        "extra": "MultiTurnAttackPowersUpEachTurn"
+    },
+    "Icicle Spear": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Triple Axel": {
+        "type": "ICE",
+        "accuracy": "90",
+        "power": "Code = HitThreeTimesPowersUpWithEachHit",
+        "Phy/Spe": "Physical",
+        "extra": "HitThreeTimesPowersUpWithEachHit"
+    },
+    "Sheer Cold": {
+        "type": "ICE",
+        "accuracy": "30",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "OHKOIce"
+    },
+    "Aurora Veil": {
+        "type": "ICE",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "StartWeakenDamageAgainstUserSideIfHail"
+    },
+    "Hail": {
+        "type": "ICE",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "StartHailWeather"
+    },
+    "Haze": {
+        "type": "ICE",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ResetAllBattlersStatStages"
+    },
+    "Mist": {
+        "type": "ICE",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "StartUserSideImmunityToStatStageLowering"
+    },
+    "Explosion": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "250",
+        "Phy/Spe": "Physical",
+        "extra": "UserFaintsExplosive"
+    },
+    "Self-Destruct": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "200",
+        "Phy/Spe": "Physical",
+        "extra": "UserFaintsExplosive"
+    },
+    "Giga Impact": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "150",
+        "Phy/Spe": "Physical",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Hyper Beam": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Boomburst": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "140",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Last Resort": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "140",
+        "Phy/Spe": "Physical",
+        "extra": "FailsIfUserHasUnusedMove"
+    },
+    "Skull Bash": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "130",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackChargeRaiseUserDefense1"
+    },
+    "Double-Edge": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilThirdOfDamageDealt"
+    },
+    "Head Charge": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilQuarterOfDamageDealt"
+    },
+    "Mega Kick": {
+        "type": "NORMAL",
+        "accuracy": "75",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Multi-Attack": {
+        "type": "nCode = TypeDependsOnUserMemory",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "TypeDependsOnUserMemory"
+    },
+    "Techno Blast": {
+        "type": "nCode = TypeDependsOnUserDrive",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "TypeDependsOnUserDrive"
+    },
+    "Thrash": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "MultiTurnAttackConfuseUserAtEnd"
+    },
+    "Egg Bomb": {
+        "type": "NORMAL",
+        "accuracy": "75",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Judgment": {
+        "type": "nCode = TypeDependsOnUserPlate",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "TypeDependsOnUserPlate"
+    },
+    "Hyper Voice": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Revelation Dance": {
+        "type": "nCode = TypeIsUserFirstType",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "TypeIsUserFirstType"
+    },
+    "Rock Climb": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "ConfuseTarget"
+    },
+    "Take Down": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilQuarterOfDamageDealt"
+    },
+    "Uproar": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "MultiTurnAttackPreventSleeping"
+    },
+    "Body Slam": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "ParalyzeTarget"
+    },
+    "Extreme Speed": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Hyper Fang": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Mega Punch": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Razor Wind": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "TwoTurnAttack"
+    },
+    "Slam": {
+        "type": "NORMAL",
+        "accuracy": "75",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Strength": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Tri Attack": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeBurnOrFreezeTarget"
+    },
+    "Crush Claw": {
+        "type": "NORMAL",
+        "accuracy": "95",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Relic Song": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Special",
+        "extra": "SleepTargetChangeUserMeloettaForm"
+    },
+    "Chip Away": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "IgnoreTargetDefSpDefEvaStatStages"
+    },
+    "Dizzy Punch": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "ConfuseTarget"
+    },
+    "Facade": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfUserPoisonedBurnedParalyzed",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfUserPoisonedBurnedParalyzed"
+    },
+    "Headbutt": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Retaliate": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfAllyFaintedLastTurn",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfAllyFaintedLastTurn"
+    },
+    "Secret Power": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "EffectDependsOnEnvironment"
+    },
+    "Slash": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Smelling Salts": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetParalyzedCureTarget",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetParalyzedCureTarget"
+    },
+    "Horn Attack": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Stomp": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Covet": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "UserTakesTargetItem"
+    },
+    "Hidden Power": {
+        "type": "nCode = TypeDependsOnUserIVs",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "TypeDependsOnUserIVs"
+    },
+    "Round": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = UsedAfterAllyRoundWithDoublePower",
+        "Phy/Spe": "Special",
+        "extra": "UsedAfterAllyRoundWithDoublePower"
+    },
+    "Swift": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Vise Grip": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "55",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Cut": {
+        "type": "NORMAL",
+        "accuracy": "95",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Rapid Spin": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveUserBindingAndEntryHazards"
+    },
+    "Snore": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "FlinchTargetFailsIfUserNotAsleep"
+    },
+    "Terrain Pulse": {
+        "type": "nCode = TypeAndPowerDependOnTerrain",
+        "accuracy": "100",
+        "power": "Code = TypeAndPowerDependOnTerrain",
+        "Phy/Spe": "Special",
+        "extra": "TypeAndPowerDependOnTerrain"
+    },
+    "Weather Ball": {
+        "type": "nCode = TypeAndPowerDependOnWeather",
+        "accuracy": "100",
+        "power": "Code = TypeAndPowerDependOnWeather",
+        "Phy/Spe": "Special",
+        "extra": "TypeAndPowerDependOnWeather"
+    },
+    "Echoed Voice": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithConsecutiveUseOnUserSide",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithConsecutiveUseOnUserSide"
+    },
+    "Fake Out": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTargetFailsIfNotUserFirstTurn"
+    },
+    "False Swipe": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "CannotMakeTargetFaint"
+    },
+    "Hold Back": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "CannotMakeTargetFaint"
+    },
+    "Pay Day": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "AddMoneyGainedFromBattle"
+    },
+    "Pound": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Quick Attack": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Scratch": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Tackle": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Double Hit": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "35",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimes"
+    },
+    "Feint": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "30",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveProtections"
+    },
+    "Tail Slap": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Rage": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "20",
+        "Phy/Spe": "Physical",
+        "extra": "StartRaiseUserAtk1WhenDamaged"
+    },
+    "Spike Cannon": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "20",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Comet Punch": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "18",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Fury Swipes": {
+        "type": "NORMAL",
+        "accuracy": "80",
+        "power": "18",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Barrage": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "15",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Bind": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "15",
+        "Phy/Spe": "Physical",
+        "extra": "BindTarget"
+    },
+    "Double Slap": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "15",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Fury Attack": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "15",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Wrap": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "15",
+        "Phy/Spe": "Physical",
+        "extra": "BindTarget"
+    },
+    "Constrict": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "10",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Bide": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "MultiTurnAttackBideThenReturnDoubleDamage"
+    },
+    "Crush Grip": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithTargetHP"
+    },
+    "Endeavor": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetHPToUserHP"
+    },
+    "Flail": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerLowerWithUserHP",
+        "Phy/Spe": "Physical",
+        "extra": "PowerLowerWithUserHP"
+    },
+    "Frustration": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerLowerWithUserHappiness",
+        "Phy/Spe": "Physical",
+        "extra": "PowerLowerWithUserHappiness"
+    },
+    "Guillotine": {
+        "type": "NORMAL",
+        "accuracy": "30",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "OHKO"
+    },
+    "Horn Drill": {
+        "type": "NORMAL",
+        "accuracy": "30",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "OHKO"
+    },
+    "Natural Gift": {
+        "type": "nCode = TypeAndPowerDependOnUserBerry",
+        "accuracy": "100",
+        "power": "Code = TypeAndPowerDependOnUserBerry",
+        "Phy/Spe": "Physical",
+        "extra": "TypeAndPowerDependOnUserBerry"
+    },
+    "Present": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "RandomlyDamageOrHealTarget"
+    },
+    "Return": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserHappiness",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithUserHappiness"
+    },
+    "Sonic Boom": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "FixedDamage20"
+    },
+    "Spit Up": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerDependsOnUserStockpile",
+        "Phy/Spe": "Special",
+        "extra": "PowerDependsOnUserStockpile"
+    },
+    "Super Fang": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "FixedDamageHalfTargetHP"
+    },
+    "Trump Card": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithLessPP",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithLessPP"
+    },
+    "Wring Out": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithTargetHP"
+    },
+    "Acupressure": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "RaiseTargetRandomStat2"
+    },
+    "After You": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "TargetActsNext"
+    },
+    "Assist": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "UseRandomMoveFromUserParty"
+    },
+    "Attract": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "AttractTarget"
+    },
+    "Baton Pass": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "SwitchOutUserPassOnEffects"
+    },
+    "Belly Drum": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "MaxUserAttackLoseHalfOfTotalHP"
+    },
+    "Bestow": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "TargetTakesUserItem"
+    },
+    "Block": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "TrapTargetInBattle"
+    },
+    "Camouflage": {
+        "type": "nCode = SetUserTypesBasedOnEnvironment",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "SetUserTypesBasedOnEnvironment"
+    },
+    "Captivate": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpAtk2IfCanAttract"
+    },
+    "Celebrate": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "DoesNothingCongratulations"
+    },
+    "Confide": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "Conversion": {
+        "type": "nCode = SetUserTypesToUserMoveType",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "SetUserTypesToUserMoveType"
+    },
+    "Conversion 2": {
+        "type": "nCode = SetUserTypesToResistLastAttack",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "SetUserTypesToResistLastAttack"
+    },
+    "Copycat": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "UseLastMoveUsed"
+    },
+    "Court Change": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "SwapSideEffects"
+    },
+    "Defense Curl": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense1CurlUpUser"
+    },
+    "Disable": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "DisableTargetLastMoveUsed"
+    },
+    "Double Team": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserEvasion1"
+    },
+    "Encore": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "DisableTargetUsingDifferentMove"
+    },
+    "Endure": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "UserEnduresFaintingThisTurn"
+    },
+    "Entrainment": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "SetTargetAbilityToUserAbility"
+    },
+    "Flash": {
+        "type": "NORMAL",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Focus Energy": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserCriticalHitRate2"
+    },
+    "Follow Me": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "RedirectAllMovesToUser"
+    },
+    "Foresight": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "StartNegateTargetEvasionStatStageAndGhostImmunity"
+    },
+    "Glare": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "ParalyzeTarget"
+    },
+    "Growl": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAttack1"
+    },
+    "Growth": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkSpAtk1Or2InSun"
+    },
+    "Happy Hour": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "DoubleMoneyGainedFromBattle"
+    },
+    "Harden": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense1"
+    },
+    "Heal Bell": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP",
+        "Phy/Spe": "Status",
+        "extra": "CureUserPartyStatus"
+    },
+    "Helping Hand": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "PowerUpAllyMove"
+    },
+    "Hold Hands": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "DoesNothingFailsIfNoAlly"
+    },
+    "Howl": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "RaiseTargetAttack1"
+    },
+    "Laser Focus": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "EnsureNextCriticalHit"
+    },
+    "Leer": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetDefense1"
+    },
+    "Lock-On": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "EnsureNextMoveAlwaysHits"
+    },
+    "Lovely Kiss": {
+        "type": "NORMAL",
+        "accuracy": "75",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "SleepTarget"
+    },
+    "Lucky Chant": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "StartPreventCriticalHitsAgainstUserSide"
+    },
+    "Me First": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "UseMoveTargetIsAboutToUse"
+    },
+    "Mean Look": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "TrapTargetInBattle"
+    },
+    "Metronome": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "UseRandomMove"
+    },
+    "Milk Drink": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "HealUserHalfOfTotalHP"
+    },
+    "Mimic": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "ReplaceMoveThisBattleWithTargetLastMoveUsed"
+    },
+    "Mind Reader": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "EnsureNextMoveAlwaysHits"
+    },
+    "Minimize": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserEvasion2MinimizeUser"
+    },
+    "Morning Sun": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = PowerUpAllyMove",
+        "Phy/Spe": "Status",
+        "extra": "HealUserDependingOnWeather"
+    },
+    "Nature Power": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "UseMoveDependingOnEnvironment"
+    },
+    "Noble Roar": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAtkSpAtk1"
+    },
+    "Odor Sleuth": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "StartNegateTargetEvasionStatStageAndGhostImmunity"
+    },
+    "Pain Split": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetAverageHP"
+    },
+    "Perish Song": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "StartPerishCountsForAllBattlers"
+    },
+    "Play Nice": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAttack1BypassSubstitute"
+    },
+    "Protect": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUser"
+    },
+    "Psych Up": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "UserCopyTargetStatStages"
+    },
+    "Recover": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "HealUserHalfOfTotalHP"
+    },
+    "Recycle": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "RestoreUserConsumedItem"
+    },
+    "Reflect Type": {
+        "type": "nCode = SetUserTypesToTargetTypes",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "SetUserTypesToTargetTypes"
+    },
+    "Refresh": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "CureUserBurnPoisonParalysis"
+    },
+    "Roar": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "SwitchOutTargetStatusMove"
+    },
+    "Safeguard": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "StartUserSideImmunityToInflictedStatus"
+    },
+    "Scary Face": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpeed2"
+    },
+    "Screech": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetDefense2"
+    },
+    "Sharpen": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAttack1"
+    },
+    "Shell Smash": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerUserDefSpDef1RaiseUserAtkSpAtkSpd2"
+    },
+    "Simple Beam": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "SetTargetAbilityToSimple"
+    },
+    "Sing": {
+        "type": "NORMAL",
+        "accuracy": "55",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "SleepTarget"
+    },
+    "Sketch": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "ReplaceMoveWithTargetLastMoveUsed"
+    },
+    "Slack Off": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "HealUserHalfOfTotalHP"
+    },
+    "Sleep Talk": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "UseRandomUserMoveIfAsleep"
+    },
+    "Smokescreen": {
+        "type": "NORMAL",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Soft-Boiled": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "HealUserHalfOfTotalHP"
+    },
+    "Splash": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "DoesNothingUnusableInGravity"
+    },
+    "Spotlight": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "RedirectAllMovesToTarget"
+    },
+    "Stockpile": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "UserAddStockpileRaiseDefSpDef1"
+    },
+    "Stuff Cheeks": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "UserConsumeBerryRaiseDefense2"
+    },
+    "Substitute": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "UserMakeSubstitute"
+    },
+    "Supersonic": {
+        "type": "NORMAL",
+        "accuracy": "55",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "ConfuseTarget"
+    },
+    "Swagger": {
+        "type": "NORMAL",
+        "accuracy": "85",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "RaiseTargetAttack2ConfuseTarget"
+    },
+    "Swallow": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "HealUserDependingOnUserStockpile"
+    },
+    "Sweet Scent": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetEvasion2"
+    },
+    "Swords Dance": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAttack2"
+    },
+    "Tail Whip": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetDefense1"
+    },
+    "Tearful Look": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAtkSpAtk1"
+    },
+    "Teatime": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "AllBattlersConsumeBerry"
+    },
+    "Teeter Dance": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "ConfuseTarget"
+    },
+    "Tickle": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAtkDef1"
+    },
+    "Transform": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "TransformUserIntoTarget"
+    },
+    "Whirlwind": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "SwitchOutTargetStatusMove"
+    },
+    "Wish": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "HealUserPositionNextTurn"
+    },
+    "Work Up": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkSpAtk1"
+    },
+    "Yawn": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ature Power",
+        "Phy/Spe": "Status",
+        "extra": "SleepTargetNextTurn"
+    },
+    "Belch": {
+        "type": "POISON",
+        "accuracy": "90",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "FailsIfUserNotConsumedBerry"
+    },
+    "Gunk Shot": {
+        "type": "POISON",
+        "accuracy": "80",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "PoisonTarget"
+    },
+    "Sludge Wave": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "95",
+        "Phy/Spe": "Special",
+        "extra": "PoisonTarget"
+    },
+    "Shell Side Arm": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "e = CategoryDependsOnHigherDamagePoisonTarget",
+        "extra": "CategoryDependsOnHigherDamagePoisonTarget"
+    },
+    "Sludge Bomb": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "PoisonTarget"
+    },
+    "Poison Jab": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "PoisonTarget"
+    },
+    "Cross Poison": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "PoisonTarget"
+    },
+    "Sludge": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "PoisonTarget"
+    },
+    "Venoshock": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetPoisoned",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerIfTargetPoisoned"
+    },
+    "Clear Smog": {
+        "type": "POISON",
+        "accuracy": "0",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "ResetTargetStatStages"
+    },
+    "Poison Fang": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "BadPoisonTarget"
+    },
+    "Poison Tail": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "PoisonTarget"
+    },
+    "Acid": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Acid Spray": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef2"
+    },
+    "Smog": {
+        "type": "POISON",
+        "accuracy": "70",
+        "power": "30",
+        "Phy/Spe": "Special",
+        "extra": "PoisonTarget"
+    },
+    "Poison Sting": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Physical",
+        "extra": "PoisonTarget"
+    },
+    "Acid Armor": {
+        "type": "POISON",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense2"
+    },
+    "Baneful Bunker": {
+        "type": "POISON",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserBanefulBunker"
+    },
+    "Coil": {
+        "type": "POISON",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkDefAcc1"
+    },
+    "Corrosive Gas": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "CorrodeTargetItem"
+    },
+    "Gastro Acid": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "NegateTargetAbility"
+    },
+    "Poison Gas": {
+        "type": "POISON",
+        "accuracy": "90",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "PoisonTarget"
+    },
+    "Poison Powder": {
+        "type": "POISON",
+        "accuracy": "75",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "PoisonTarget"
+    },
+    "Purify": {
+        "type": "POISON",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "CureTargetStatusHealUserHalfOfTotalHP"
+    },
+    "Toxic": {
+        "type": "POISON",
+        "accuracy": "90",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "BadPoisonTarget"
+    },
+    "Toxic Spikes": {
+        "type": "POISON",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "AddToxicSpikesToFoeSide"
+    },
+    "Toxic Thread": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "PoisonTargetLowerTargetSpeed1"
+    },
+    "Venom Drench": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "LowerPoisonedTargetAtkSpAtkSpd1"
+    },
+    "Prismatic Laser": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "160",
+        "Phy/Spe": "Special",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Psycho Boost": {
+        "type": "PSYCHIC",
+        "accuracy": "90",
+        "power": "140",
+        "Phy/Spe": "Special",
+        "extra": "LowerUserSpAtk2"
+    },
+    "Future Sight": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "AttackTwoTurnsLater"
+    },
+    "Synchronoise": {
+        "type": "nCode = FailsUnlessTargetSharesTypeWithUser",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "FailsUnlessTargetSharesTypeWithUser"
+    },
+    "Dream Eater": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByHalfOfDamageDoneIfTargetAsleep"
+    },
+    "Photon Geyser": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "e = CategoryDependsOnHigherDamageIgnoreTargetAbility",
+        "extra": "CategoryDependsOnHigherDamageIgnoreTargetAbility"
+    },
+    "Psystrike": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "UseTargetDefenseInsteadOfTargetSpDef"
+    },
+    "Freezing Glare": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "FreezeTarget"
+    },
+    "Psychic": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Psychic Fangs": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveScreens"
+    },
+    "Eerie Spell": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "LowerPPOfTargetLastMoveBy3"
+    },
+    "Expanding Force": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "ion = The user attacks the target with psychic power. Powers up and hits all foes on Psychic Terrain.",
+        "Phy/Spe": "Special",
+        "extra": "HitsAllFoesAndPowersUpInPsychicTerrain"
+    },
+    "Extrasensory": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "FlinchTarget"
+    },
+    "Hyperspace Hole": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "RemoveProtectionsBypassSubstitute"
+    },
+    "Psyshock": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "UseTargetDefenseInsteadOfTargetSpDef"
+    },
+    "Zen Headbutt": {
+        "type": "PSYCHIC",
+        "accuracy": "90",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Luster Purge": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Mist Ball": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpAtk1"
+    },
+    "Psycho Cut": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Psybeam": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTarget"
+    },
+    "Heart Stamp": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Confusion": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTarget"
+    },
+    "Stored Power": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserPositiveStatStages",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithUserPositiveStatStages"
+    },
+    "Mirror Coat": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "CounterSpecialDamage"
+    },
+    "Psywave": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "FixedDamageUserLevelRandom"
+    },
+    "Agility": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpeed2"
+    },
+    "Ally Switch": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "UserSwapsPositionsWithAlly"
+    },
+    "Amnesia": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpDef2"
+    },
+    "Barrier": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense2"
+    },
+    "Calm Mind": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpAtkSpDef1"
+    },
+    "Cosmic Power": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefSpDef1"
+    },
+    "Gravity": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "StartGravity"
+    },
+    "Guard Split": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetAverageBaseDefSpDef"
+    },
+    "Guard Swap": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetSwapDefSpDefStages"
+    },
+    "Heal Block": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "DisableTargetHealingMoves"
+    },
+    "Heal Pulse": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "HealTargetHalfOfTotalHP"
+    },
+    "Healing Wish": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "UserFaintsHealAndCureReplacement"
+    },
+    "Heart Swap": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetSwapStatStages"
+    },
+    "Hypnosis": {
+        "type": "PSYCHIC",
+        "accuracy": "60",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "SleepTarget"
+    },
+    "Imprison": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "DisableTargetMovesKnownByUser"
+    },
+    "Instruct": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "TargetUsesItsLastUsedMoveAgain"
+    },
+    "Kinesis": {
+        "type": "PSYCHIC",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Light Screen": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "StartWeakenSpecialDamageAgainstUserSide"
+    },
+    "Lunar Dance": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "UserFaintsHealAndCureReplacementRestorePP"
+    },
+    "Magic Coat": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "BounceBackProblemCausingStatusMoves"
+    },
+    "Magic Powder": {
+        "type": "nCode = SetTargetTypesToPsychic",
+        "accuracy": "100",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "SetTargetTypesToPsychic"
+    },
+    "Magic Room": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "StartNegateHeldItems"
+    },
+    "Meditate": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAttack1"
+    },
+    "Miracle Eye": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "osmic Power",
+        "Phy/Spe": "Status",
+        "extra": "StartNegateTargetEvasionStatStageAndDarkImmunity"
+    },
+    "Power Split": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Split",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetAverageBaseAtkSpAtk"
+    },
+    "Power Swap": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Swap",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetSwapAtkSpAtkStages"
+    },
+    "Power Trick": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "UserSwapBaseAtkDef"
+    },
+    "Psychic Terrain": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "StartPsychicTerrain"
+    },
+    "Psycho Shift": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "GiveUserStatusToTarget"
+    },
+    "Reflect": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "StartWeakenPhysicalDamageAgainstUserSide"
+    },
+    "Rest": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "HealUserFullyAndFallAsleep"
+    },
+    "Role Play": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "SetUserAbilityToTargetAbility"
+    },
+    "Skill Swap": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetSwapAbilities"
+    },
+    "Speed Swap": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetSwapBaseSpeed"
+    },
+    "Telekinesis": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "StartTargetAirborneAndAlwaysHitByMoves"
+    },
+    "Teleport": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "SwitchOutUserStatusMove"
+    },
+    "Trick": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "UserTargetSwapItems"
+    },
+    "Trick Room": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "StartSlowerBattlersActFirst"
+    },
+    "Wonder Room": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "ower Trick",
+        "Phy/Spe": "Status",
+        "extra": "StartSwapAllBattlersBaseDefensiveStats"
+    },
+    "Head Smash": {
+        "type": "ROCK",
+        "accuracy": "80",
+        "power": "150",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilHalfOfDamageDealt"
+    },
+    "Rock Wrecker": {
+        "type": "ROCK",
+        "accuracy": "90",
+        "power": "150",
+        "Phy/Spe": "Physical",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Meteor Beam": {
+        "type": "ROCK",
+        "accuracy": "90",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "TwoTurnAttackChargeRaiseUserSpAtk1"
+    },
+    "Diamond Storm": {
+        "type": "ROCK",
+        "accuracy": "95",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserDefense2"
+    },
+    "Stone Edge": {
+        "type": "ROCK",
+        "accuracy": "80",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Power Gem": {
+        "type": "ROCK",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Rock Slide": {
+        "type": "ROCK",
+        "accuracy": "90",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Ancient Power": {
+        "type": "ROCK",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserMainStats1"
+    },
+    "Rock Tomb": {
+        "type": "ROCK",
+        "accuracy": "95",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Rock Throw": {
+        "type": "ROCK",
+        "accuracy": "90",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Smack Down": {
+        "type": "ROCK",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "HitsTargetInSkyGroundsTarget"
+    },
+    "Accelerock": {
+        "type": "ROCK",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Rollout": {
+        "type": "ROCK",
+        "accuracy": "90",
+        "power": "Code = MultiTurnAttackPowersUpEachTurn",
+        "Phy/Spe": "Physical",
+        "extra": "MultiTurnAttackPowersUpEachTurn"
+    },
+    "Rock Blast": {
+        "type": "ROCK",
+        "accuracy": "90",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoToFiveTimes"
+    },
+    "Rock Polish": {
+        "type": "ROCK",
+        "accuracy": "0",
+        "power": "25",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpeed2"
+    },
+    "Sandstorm": {
+        "type": "ROCK",
+        "accuracy": "0",
+        "power": "25",
+        "Phy/Spe": "Status",
+        "extra": "StartSandstormWeather"
+    },
+    "Stealth Rock": {
+        "type": "ROCK",
+        "accuracy": "0",
+        "power": "25",
+        "Phy/Spe": "Status",
+        "extra": "AddStealthRocksToFoeSide"
+    },
+    "Tar Shot": {
+        "type": "ROCK",
+        "accuracy": "100",
+        "power": "25",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpeed1MakeTargetWeakerToFire"
+    },
+    "Wide Guard": {
+        "type": "ROCK",
+        "accuracy": "0",
+        "power": "25",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserSideFromMultiTargetDamagingMoves"
+    },
+    "Doom Desire": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "140",
+        "Phy/Spe": "Special",
+        "extra": "AttackTwoTurnsLater"
+    },
+    "Steel Beam": {
+        "type": "STEEL",
+        "accuracy": "95",
+        "power": "140",
+        "Phy/Spe": "Special",
+        "extra": "UserLosesHalfOfTotalHP"
+    },
+    "Steel Roller": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "130",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveTerrain"
+    },
+    "Behemoth Bash": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Behemoth Blade": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Iron Tail": {
+        "type": "STEEL",
+        "accuracy": "75",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Sunsteel Strike": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "IgnoreTargetAbility"
+    },
+    "Meteor Mash": {
+        "type": "STEEL",
+        "accuracy": "90",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserAttack1"
+    },
+    "Anchor Shot": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "TrapTargetInBattle"
+    },
+    "Flash Cannon": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef1"
+    },
+    "Iron Head": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Smart Strike": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Steel Wing": {
+        "type": "STEEL",
+        "accuracy": "90",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserDefense1"
+    },
+    "Double Iron Bash": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimesFlinchTarget"
+    },
+    "Mirror Shot": {
+        "type": "STEEL",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Magnet Bomb": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Gear Grind": {
+        "type": "STEEL",
+        "accuracy": "85",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "HitTwoTimes"
+    },
+    "Metal Claw": {
+        "type": "STEEL",
+        "accuracy": "95",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserAttack1"
+    },
+    "Bullet Punch": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Gyro Ball": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetFasterThanUser",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithTargetFasterThanUser"
+    },
+    "Heavy Slam": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserHeavierThanTarget",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithUserHeavierThanTarget"
+    },
+    "Metal Burst": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "CounterDamagePlusHalf"
+    },
+    "Autotomize": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpeed2LowerUserWeight"
+    },
+    "Gear Up": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaisePlusMinusUserAndAlliesAtkSpAtk1"
+    },
+    "Iron Defense": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense2"
+    },
+    "King's Shield": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserFromDamagingMovesKingsShield"
+    },
+    "Metal Sound": {
+        "type": "STEEL",
+        "accuracy": "85",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "LowerTargetSpDef2"
+    },
+    "Shift Gear": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtk1Spd2"
+    },
+    "Hydro Cannon": {
+        "type": "WATER",
+        "accuracy": "90",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "AttackAndSkipNextTurn"
+    },
+    "Water Spout": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithUserHP",
+        "Phy/Spe": "Special",
+        "extra": "PowerHigherWithUserHP"
+    },
+    "Hydro Pump": {
+        "type": "WATER",
+        "accuracy": "80",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Origin Pulse": {
+        "type": "WATER",
+        "accuracy": "85",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Steam Eruption": {
+        "type": "WATER",
+        "accuracy": "95",
+        "power": "110",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Crabhammer": {
+        "type": "WATER",
+        "accuracy": "90",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Aqua Tail": {
+        "type": "WATER",
+        "accuracy": "90",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Muddy Water": {
+        "type": "WATER",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Sparkling Aria": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Special",
+        "extra": "CureTargetBurn"
+    },
+    "Surf": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetUnderwater",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerIfTargetUnderwater"
+    },
+    "Fishious Rend": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "ion = The user rends the target with its hard gills. Power doubles if the user moves first.",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetNotActed"
+    },
+    "Liquidation": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Dive": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "TwoTurnAttackInvulnerableUnderwater"
+    },
+    "Scald": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Snipe Shot": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "CannotBeRedirected"
+    },
+    "Water Pledge": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "WaterPledge"
+    },
+    "Waterfall": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Razor Shell": {
+        "type": "WATER",
+        "accuracy": "95",
+        "power": "75",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1"
+    },
+    "Brine": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "Code = DoublePowerIfTargetHPLessThanHalf",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerIfTargetHPLessThanHalf"
+    },
+    "Bubble Beam": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Octazooka": {
+        "type": "WATER",
+        "accuracy": "e = LowerTargetAccuracy1",
+        "power": "65",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAccuracy1"
+    },
+    "Flip Turn": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "SwitchOutUserDamagingMove"
+    },
+    "Water Pulse": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTarget"
+    },
+    "Aqua Jet": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Bubble": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Water Gun": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "None"
+    },
+    "Clamp": {
+        "type": "WATER",
+        "accuracy": "85",
+        "power": "35",
+        "Phy/Spe": "Physical",
+        "extra": "BindTarget"
+    },
+    "Whirlpool": {
+        "type": "WATER",
+        "accuracy": "85",
+        "power": "Code = BindTargetDoublePowerIfTargetUnderwater",
+        "Phy/Spe": "Special",
+        "extra": "BindTargetDoublePowerIfTargetUnderwater"
+    },
+    "Surging Strikes": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "25",
+        "Phy/Spe": "Physical",
+        "extra": "HitThreeTimesAlwaysCriticalHit"
+    },
+    "Water Shuriken": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Special",
+        "extra": "HitTwoToFiveTimesOrThreeForAshGreninja"
+    },
+    "Aqua Ring": {
+        "type": "WATER",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "StartHealUserEachTurn"
+    },
+    "Life Dew": {
+        "type": "WATER",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "HealUserAndAlliesQuarterOfTotalHP"
+    },
+    "Rain Dance": {
+        "type": "WATER",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "StartRainWeather"
+    },
+    "Soak": {
+        "type": "nCode = SetTargetTypesToWater",
+        "accuracy": "100",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "SetTargetTypesToWater"
+    },
+    "Water Sport": {
+        "type": "WATER",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "StartWeakenFireMoves"
+    },
+    "Withdraw": {
+        "type": "WATER",
+        "accuracy": "0",
+        "power": "15",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense1"
+    },
+    "Dire Claw": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "PoisonParalyzeOrSleepTarget"
+    },
+    "Springtide Storm": {
+        "type": "FAIRY",
+        "accuracy": "80",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAttack1"
+    },
+    "Raging Fury": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "MultiTurnAttackConfuseUserAtEnd"
+    },
+    "Wave Crash": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "RecoilThirdOfDamageDealt"
+    },
+    "Chloroblast": {
+        "type": "GRASS",
+        "accuracy": "95",
+        "power": "150",
+        "Phy/Spe": "Special",
+        "extra": "RecoilHalfOfTotalHP"
+    },
+    "Mountain Gale": {
+        "type": "ICE",
+        "accuracy": "85",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTarget"
+    },
+    "Headlong Rush": {
+        "type": "GROUND",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserDefSpDef1"
+    },
+    "Barb Barrage": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "ion = Fires toxic barbs which may poison the target. Power is doubled if the target is poisoned.",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfTargetPoisonedPoisonTarget"
+    },
+    "Esper Wing": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserSpeed1"
+    },
+    "Bitter Malice": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAttack1"
+    },
+    "Triple Arrows": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetDefense1FlinchTarget"
+    },
+    "Bleakwind Storm": {
+        "type": "FLYING",
+        "accuracy": "80",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Wildbolt Storm": {
+        "type": "ELECTRIC",
+        "accuracy": "80",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "ParalyzeTarget"
+    },
+    "Sandsear Storm": {
+        "type": "GROUND",
+        "accuracy": "80",
+        "power": "100",
+        "Phy/Spe": "Special",
+        "extra": "BurnTarget"
+    },
+    "Lunar Blessing": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "100",
+        "Phy/Spe": "Status",
+        "extra": "HealUserAndAlliesQuarterOfTotalHPCureStatus"
+    },
+    "Psyshield Bash": {
+        "type": "PSYCHIC",
+        "accuracy": "90",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserDefense1"
+    },
+    "Power Shift": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "ower Shift",
+        "Phy/Spe": "Status",
+        "extra": "UserSwapBaseAtkDef"
+    },
+    "Stone Axe": {
+        "type": "ROCK",
+        "accuracy": "90",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "SplintersTargetGen8AddStealthRocksGen9"
+    },
+    "Mystical Power": {
+        "type": "PSYCHIC",
+        "accuracy": "90",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserSpAtk1"
+    },
+    "Victory Dance": {
+        "type": "FIGHTING",
+        "accuracy": "0",
+        "power": "70",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkDefSpd1"
+    },
+    "Shelter": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "70",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserDefense2"
+    },
+    "Infernal Parade": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "ion = Hurls fireballs which may cause burns. Power is doubled if the target has a status condition.",
+        "Phy/Spe": "Special",
+        "extra": "DoublePowerIfTargetStatusProblemBurnTarget"
+    },
+    "Ceaseless Edge": {
+        "type": "DARK",
+        "accuracy": "90",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "SplintersTargetGen8AddSpikesGen9"
+    },
+    "Take Heart": {
+        "type": "PSYCHIC",
+        "accuracy": "0",
+        "power": "65",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserSpAtkSpDef1CureStatus"
+    },
+    "Aqua Cutter": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Aqua Step": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserSpeed1"
+    },
+    "Armor Cannon": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "LowerUserDefSpDef1"
+    },
+    "Axe Kick": {
+        "type": "FIGHTING",
+        "accuracy": "90",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "CrashDamageIfFailsConfuseTarget"
+    },
+    "Bitter Blade": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "HealUserByHalfOfDamageDone"
+    },
+    "Blazing Torque": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "StarmobileBurnTarget"
+    },
+    "Chilling Water": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetAttack1"
+    },
+    "Chilly Reception": {
+        "type": "ICE",
+        "accuracy": "0",
+        "power": "50",
+        "Phy/Spe": "Status",
+        "extra": "StartHailWeatherSwitchOutUser"
+    },
+    "Collision Course": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "Code = IncreasePowerSuperEffective",
+        "Phy/Spe": "Physical",
+        "extra": "IncreasePowerSuperEffective"
+    },
+    "Combat Torque": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "StarmobileParalyzeTarget"
+    },
+    "Comeuppance": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Physical",
+        "extra": "CounterDamagePlusHalf"
+    },
+    "Doodle": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "1",
+        "Phy/Spe": "Status",
+        "extra": "SetUserAlliesAbilityToTargetAbility"
+    },
+    "Double Shock": {
+        "type": "nCode = UserLosesElectricType",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "UserLosesElectricType"
+    },
+    "Electro Drift": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "Code = IncreasePowerSuperEffective",
+        "Phy/Spe": "Special",
+        "extra": "IncreasePowerSuperEffective"
+    },
+    "Fillet Away": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "Code = IncreasePowerSuperEffective",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtk2SpAtk2Speed2LoseHalfOfTotalHP"
+    },
+    "Flower Trick": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "70",
+        "Phy/Spe": "Physical",
+        "extra": "AlwaysCriticalHit"
+    },
+    "Gigaton Hammer": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "160",
+        "Phy/Spe": "Physical",
+        "extra": "CantSelectConsecutiveTurns"
+    },
+    "Glaive Rush": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Physical",
+        "extra": "UserVulnerableUntilNextAction"
+    },
+    "Hyper Drill": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Ice Spinner": {
+        "type": "ICE",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveTerrainIceSpinner"
+    },
+    "Jet Punch": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "60",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Kowtow Cleave": {
+        "type": "DARK",
+        "accuracy": "0",
+        "power": "85",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Last Respects": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "Code = IncreasePowerEachFaintedAlly",
+        "Phy/Spe": "Physical",
+        "extra": "IncreasePowerEachFaintedAlly"
+    },
+    "Lumina Crash": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpDef2"
+    },
+    "Magical Torque": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "StarmobileConfuseTarget"
+    },
+    "Make It Rain": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "Special",
+        "extra": "AddMoneyGainedFromBattleLowerUserSpAtk1"
+    },
+    "Mortal Spin": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "30",
+        "Phy/Spe": "Physical",
+        "extra": "RemoveUserBindingAndEntryHazardsPoisonTarget"
+    },
+    "Noxious Torque": {
+        "type": "POISON",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "StarmobilePoisonTarget"
+    },
+    "Order Up": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserStat1Commander"
+    },
+    "Population Bomb": {
+        "type": "NORMAL",
+        "accuracy": "90",
+        "power": "20",
+        "Phy/Spe": "Physical",
+        "extra": "HitTenTimes"
+    },
+    "Pounce": {
+        "type": "BUG",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "LowerTargetSpeed1"
+    },
+    "Rage Fist": {
+        "type": "GHOST",
+        "accuracy": "100",
+        "power": "Code = IncreasePowerEachTimeHit",
+        "Phy/Spe": "Physical",
+        "extra": "IncreasePowerEachTimeHit"
+    },
+    "Raging Bull": {
+        "type": "nCode = TypeIsUserSecondTypeRemoveScreens",
+        "accuracy": "100",
+        "power": "90",
+        "Phy/Spe": "Physical",
+        "extra": "TypeIsUserSecondTypeRemoveScreens"
+    },
+    "Revival Blessing": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "90",
+        "Phy/Spe": "Status",
+        "extra": "RevivePokemonHalfHP"
+    },
+    "Ruination": {
+        "type": "DARK",
+        "accuracy": "90",
+        "power": "1",
+        "Phy/Spe": "Special",
+        "extra": "FixedDamageHalfTargetHP"
+    },
+    "Salt Cure": {
+        "type": "ROCK",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Physical",
+        "extra": "StartSaltCureTarget"
+    },
+    "Shed Tail": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "40",
+        "Phy/Spe": "Status",
+        "extra": "UserMakeSubstituteSwitchOut"
+    },
+    "Silk Trap": {
+        "type": "BUG",
+        "accuracy": "0",
+        "power": "40",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserFromDamagingMovesSilkTrap"
+    },
+    "Snowscape": {
+        "type": "ICE",
+        "accuracy": "0",
+        "power": "40",
+        "Phy/Spe": "Status",
+        "extra": "StartHailWeather"
+    },
+    "Spicy Extract": {
+        "type": "GRASS",
+        "accuracy": "0",
+        "power": "40",
+        "Phy/Spe": "Status",
+        "extra": "RaiseTargetAtkLowerTargetDef2"
+    },
+    "Spin Out": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "LowerUserSpeed2"
+    },
+    "Tidy Up": {
+        "type": "NORMAL",
+        "accuracy": "0",
+        "power": "100",
+        "Phy/Spe": "Status",
+        "extra": "RaiseUserAtkSpd1RemoveHazardsSubstitutes"
+    },
+    "Torch Song": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "RaiseUserSpAtk1"
+    },
+    "Trailblaze": {
+        "type": "GRASS",
+        "accuracy": "100",
+        "power": "50",
+        "Phy/Spe": "Physical",
+        "extra": "RaiseUserSpeed1"
+    },
+    "Triple Dive": {
+        "type": "WATER",
+        "accuracy": "95",
+        "power": "30",
+        "Phy/Spe": "Physical",
+        "extra": "HitThreeTimes"
+    },
+    "Twin Beam": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "40",
+        "Phy/Spe": "Special",
+        "extra": "HitTwoTimes"
+    },
+    "Wicked Torque": {
+        "type": "DARK",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Physical",
+        "extra": "StarmobileSleepTarget"
+    },
+    "Hydro Steam": {
+        "type": "WATER",
+        "accuracy": "100",
+        "power": "Code = IncreasePowerInSunWeather",
+        "Phy/Spe": "Special",
+        "extra": "IncreasePowerInSunWeather"
+    },
+    "Psyblade": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "Code = IncreasePowerInElectricTerrain",
+        "Phy/Spe": "Physical",
+        "extra": "IncreasePowerInElectricTerrain"
+    },
+    "Blood Moon": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "140",
+        "Phy/Spe": "Special",
+        "extra": "CantSelectConsecutiveTurns"
+    },
+    "Matcha Gotcha": {
+        "type": "GRASS",
+        "accuracy": "90",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "HealUserByHalfOfDamageDoneBurnTarget"
+    },
+    "Syrup Bomb": {
+        "type": "GRASS",
+        "accuracy": "85",
+        "power": "60",
+        "Phy/Spe": "Special",
+        "extra": "LowerTargetSpeedOverTime"
+    },
+    "Ivy Cudgel": {
+        "type": "tion = An ivy-wrapped cudgel strike with a high critical-hit ratio. Type changes based on the user's Mask.",
+        "accuracy": "100",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "TypeIsUserSecondType"
+    },
+    "Electro Shot": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "130",
+        "Phy/Spe": "Special",
+        "extra": "TwoTurnAttackOneTurnInRainRaiseUserSpAtk1"
+    },
+    "Tera Starstorm": {
+        "type": "NORMAL",
+        "accuracy": "100",
+        "power": "120",
+        "Phy/Spe": "e = TerapagosCategoryDependsOnHigherDamage",
+        "extra": "TerapagosCategoryDependsOnHigherDamage"
+    },
+    "Fickle Beam": {
+        "type": "DRAGON",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "RandomlyDealsDoubleDamage"
+    },
+    "Burning Bulwark": {
+        "type": "FIRE",
+        "accuracy": "0",
+        "power": "80",
+        "Phy/Spe": "Status",
+        "extra": "ProtectUserBurningBulwark"
+    },
+    "Thunderclap": {
+        "type": "ELECTRIC",
+        "accuracy": "100",
+        "power": "70",
+        "Phy/Spe": "Special",
+        "extra": "FailsIfTargetActed"
+    },
+    "Mighty Cleave": {
+        "type": "ROCK",
+        "accuracy": "100",
+        "power": "95",
+        "Phy/Spe": "Physical",
+        "extra": "None"
+    },
+    "Tachyon Cutter": {
+        "type": "STEEL",
+        "accuracy": "0",
+        "power": "50",
+        "Phy/Spe": "Special",
+        "extra": "HitTwoTimes"
+    },
+    "Hard Press": {
+        "type": "STEEL",
+        "accuracy": "100",
+        "power": "Code = PowerHigherWithTargetHP100PowerRange",
+        "Phy/Spe": "Physical",
+        "extra": "PowerHigherWithTargetHP100PowerRange"
+    },
+    "Dragon Cheer": {
+        "type": "nCode = RaiseAlliesCriticalHitRate1DragonTypes2",
+        "accuracy": "0",
+        "power": "Code = PowerHigherWithTargetHP100PowerRange",
+        "Phy/Spe": "Status",
+        "extra": "RaiseAlliesCriticalHitRate1DragonTypes2"
+    },
+    "Alluring Voice": {
+        "type": "FAIRY",
+        "accuracy": "100",
+        "power": "80",
+        "Phy/Spe": "Special",
+        "extra": "ConfuseTargetIfTargetStatsRaisedThisTurn"
+    },
+    "Temper Flare": {
+        "type": "FIRE",
+        "accuracy": "100",
+        "power": "ion = The user attacks driven by frustration. Power increases if the user's previous move failed.",
+        "Phy/Spe": "Physical",
+        "extra": "DoublePowerIfUserLastMoveFailed"
+    },
+    "Supercell Slam": {
+        "type": "ELECTRIC",
+        "accuracy": "95",
+        "power": "100",
+        "Phy/Spe": "Physical",
+        "extra": "CrashDamageIfFails"
+    },
+    "Psychic Noise": {
+        "type": "PSYCHIC",
+        "accuracy": "100",
+        "power": "75",
+        "Phy/Spe": "Special",
+        "extra": "DisableTargetHealingMoves2Turns"
+    },
+    "Upper Hand": {
+        "type": "FIGHTING",
+        "accuracy": "100",
+        "power": "65",
+        "Phy/Spe": "Physical",
+        "extra": "FlinchTargetFailsIfTargetNotUsingPriorityMove"
+    }
+}
